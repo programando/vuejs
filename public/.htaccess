@@ -3,6 +3,7 @@
         Options -MultiViews
     </IfModule>
 
+    Options +FollowSymLinks
     RewriteEngine On
 
     # Redirect Trailing Slashes If Not A Folder...
@@ -19,3 +20,5 @@
     RewriteCond %{HTTP:Authorization} .
     RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
 </IfModule>
+
+
