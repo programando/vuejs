@@ -7,11 +7,11 @@
          <button type="button" class="close" data-dismiss="modal">
            <span>&times;</span>
          </button>
-         <h4>Editar Tarea</h4>
+         <h4>Editar</h4>
     </div>
 
     <div class="modal-body">
-      <label for="keep"> Actualizar </label>
+      <label for="keep"> Actualizar Tarea</label>
       <input type="text" name="keep" class="form-control" v-model="fillKeep.keep">
     <div v-if="newKeep.length===0">
       <span   v-for="error in errors" class="text-danger">@{{ error }} </span>

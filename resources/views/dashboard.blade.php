@@ -4,7 +4,7 @@
 
 <div id="crud" class="row">
   <div class="col-xs-12">
-    <h1  class="page-header"> CRUD Laravel y Vue.js
+    <h1  class="page-header"> CRUD Laravel y Vue.js - Lista de Tareas
     </h1>
 
     <div class="col-sm-7">
