@@ -25,7 +25,7 @@ class TaskController extends Controller
         // INCLUYO CAMBIOS PARA EL TEMA DE LA PAGINACION
         // cambio el formato de salida. que incluye dos programaciones
         // la que controla la paginación y la que contiene los elementos a paginar en este caso 10
-        $tasks = Task::orderBy('id','ASC')->paginate(20);
+        $tasks = Task::orderBy('id','ASC')->paginate(10);
         return [
                 'pagination' => [
                         'total'        => $tasks->total(),

@@ -1,4 +1,5 @@
-
+<div class="text-center">
+   <nav>
   <ul class="pagination">
 
     <li v-if="pagination.current_page > 1">
@@ -21,4 +22,5 @@
 
   </ul>
   </nav>
+  </div>
 
